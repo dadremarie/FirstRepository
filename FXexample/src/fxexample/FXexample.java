@@ -31,7 +31,7 @@ public class FXexample extends Application {
             }
         });
         
-        StackPane root = new StackPane();
+         Group root = new Group();
         root.getChildren().add(btn);
         
         Scene scene = new Scene(root, 200, 200);
